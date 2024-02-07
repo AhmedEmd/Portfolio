@@ -6,22 +6,26 @@
     <title>My Port</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="img/favicon.ico" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,900&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-<div class="head">
-    <header class="navigation">
-        <h1 class="title">Digital Portfolio</h1>
-        <h1 class="toggleModes">ToggleThemes</h1>
-    </header> 
-    <img class="star" src="star.png" alt="Star">
-</div>
+    <div class="head" id="fade" style="opacity: 0;">
+        <header class="navigation">
+            <h1 class="title" id="shake">Web Based Portfolio</h1>
+            <h1 class="toggleModes dark-mode">LightMode</h1>
+        </header> 
+    </div>
 <main>
-    <div class="section1">
+    <div class="section">
         <div class="sectionchild">
           <h1>Who am I?</h1>  
-          <p>A passionate student with a keen interest in AWS.
+           <p>A passionate student with a keen interest in AWS.
              He's driven to become a Solutions Architect and 
              excels in learning AWS services and certifications. 
              His dedication positions him to craft innovative 
@@ -30,17 +34,16 @@
               serve as a stepping stone in his software career,
                providing practical experience and valuable insights 
                to further enhance 
-            his skills and knowledge in the field.</p>
+             his skills and knowledge in the field.</p>
             <h2>Name: Ahmed Emad</h2>
             <h2>Phone: 01011747352</h2>
             <h2>Email: unprexpected@gmail.com</h2>
-            <h2>Address: 26 Sanan Basha St.</h2>
         </div>
            <img src="me.png" alt="A Picture Of Me">  
-          
-
     </div>
- <div class="section1">
+
+<img class="star" src="star.png" alt="Star">
+ <div class="section">
     <div id="qualification">
         <h1>Education & Experience</h1>
         <div>
@@ -50,16 +53,22 @@
                     <i></i>
                     <h5>Undergraduate</h5>
                     <p><strong>AAST University</strong> | <small>2022 - Current</small></p>
-                    <p>As a Business Information Systems undergraduate, I've mastered the strategic use of technology in business, covering database management, and project management. Ready to contribute to organizational success by leveraging technology for effective problem-solving and seizing opportunities.</p>
+                    <p>As a Business Information Systems undergraduate, 
+                        I've been taught the strategic use of technology in business,
+                         covering database management, and project management. 
+                         Ready to contribute to organizational success by leveraging
+                          technology for effective problem-solving and seizing opportunities.</p>
                 </div>
             </div>
         </div>
     </div>
  </div>
-<div class="section1">
-                
+ 
+<div class="section">
+             <section>
+                <h1>My Experience</h1>
                 <div>
-                    <h1>My Experience</h1>
+                    
                     <h5>United Deutschland | Network Engineer Internship</h5>
                     <p><strong>United Deutschland</strong> | <small>Oct 2023 - Nov 2023</small></p>
                     <p>-Acquired fundamental knowledge of router and switch configurations, demonstrating a beginner's proficiency in setting up and managing network devices. 
@@ -78,11 +87,14 @@
                         </p>
                 </div>
             </div>
+           </section> 
         </div>
     </div>
 <div>
 
 </main>    
+<script src="script.js"></script>
+
 </body>
 
 
